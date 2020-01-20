@@ -7,8 +7,6 @@
     margin: 50px;
     overflow: hidden;
     font-family: 'Rubik', sans-serif;
-
-
 }
 
 .card-info {
@@ -22,14 +20,14 @@
     position: absolute;
     padding: 15px;    
     top: 320px;
-    width: 300px;
-    
+    width: 300px;   
 }
 
 .card-info-title {
     text-transform: uppercase;
     margin: 0;
     font-size: 32px; 
+    font-weight: 300;
 }
 
 .card-info-subtitle {
