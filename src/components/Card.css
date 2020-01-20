@@ -34,3 +34,21 @@
     font-size: 22px;
     margin: 0;
 }
+
+.fa {
+    font-size: 25px;
+    position: absolute;
+    top: 172px;
+    right: 0px;
+    color: #fdfdfd;
+    border: 1px solid darkcyan;
+    background-color: darkcyan;
+    width: 25px;
+    height: 25px;
+    text-align: center;
+
+}
+
+.fa:hover{
+    
+}

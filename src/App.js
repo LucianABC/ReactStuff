@@ -26,11 +26,11 @@ function App() {
     }
   ];
   return (
-    <div>
+    <section className="all">
         {villains.map(villain => {
           return <Card cardBckgrnd = {villain.img} villainName = {villain.name} villainInfo = {villain.info}></Card>
         })}
-    </div>
+    </section>
 
 
 
