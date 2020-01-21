@@ -4,7 +4,6 @@
     width: 360px;
     height: 520px;
     position: relative;
-    margin: 50px;
     overflow: hidden;
     font-family: 'Rubik', sans-serif;
 }
@@ -35,20 +34,31 @@
     margin: 0;
 }
 
-.fa {
-    font-size: 25px;
-    position: absolute;
-    top: 172px;
-    right: 0px;
-    color: #fdfdfd;
+.card-info-icon {
     border: 1px solid darkcyan;
     background-color: darkcyan;
+    margin: 0;
+    position: absolute;
+    text-align: center;
+    top: 170px;
+    padding:3px;
+    right: 0px;
     width: 25px;
     height: 25px;
-    text-align: center;
+}
+.fa {
+    font-size: 25px;
+    color: #fdfdfd;
+}
+.card-info:hover > .card-info-icon > .fa {
+    transform: rotate(45deg);
+}
+.card-info:hover > .card-info-icon {
+    top: 490px;
 
 }
-
-.fa:hover{
-    
+.card-info:hover {
+    left:20px;
+    top: 0px;
+    width: 320px;
 }
