@@ -14,7 +14,7 @@
     color: black;
     display: flex;
     flex-direction: column;
-    height: 740px;
+    height: 520px;
     left:30px;
     position: absolute;
     padding: 15px;    
@@ -40,7 +40,7 @@
     margin: 0;
     position: absolute;
     text-align: center;
-    top: 170px;
+    bottom: 320px;
     padding:3px;
     right: 0px;
     width: 25px;
@@ -55,7 +55,7 @@
     transition: all 0.5s ease-out;
 }
 .card-info:hover > .card-info-icon {
-    top: 490px;
+    bottom: 0px;
     transition: all 0.5s ease-in;
 
 }
